@@ -238,9 +238,38 @@
     <Compile Include="Migrations\201901281757402_FinishAdingMemberTypeNames.Designer.cs">
       <DependentUpon>201901281757402_FinishAdingMemberTypeNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901281815394_AddedBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201901281815394_AddedBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201901281815394_AddedBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281821155_ChangedDateTimeTypeToNullable.cs" />
+    <Compile Include="Migrations\201901281821155_ChangedDateTimeTypeToNullable.Designer.cs">
+      <DependentUpon>201901281821155_ChangedDateTimeTypeToNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281822342_ChangedAllBirthdatesToNull.cs" />
+    <Compile Include="Migrations\201901281822342_ChangedAllBirthdatesToNull.Designer.cs">
+      <DependentUpon>201901281822342_ChangedAllBirthdatesToNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281825305_AddABirthday.cs" />
+    <Compile Include="Migrations\201901281825305_AddABirthday.Designer.cs">
+      <DependentUpon>201901281825305_AddABirthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281850351_AddMoviesDbSet.cs" />
+    <Compile Include="Migrations\201901281850351_AddMoviesDbSet.Designer.cs">
+      <DependentUpon>201901281850351_AddMoviesDbSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281952501_AddGeneresModel.cs" />
+    <Compile Include="Migrations\201901281952501_AddGeneresModel.Designer.cs">
+      <DependentUpon>201901281952501_AddGeneresModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281955011_AddGenreData.cs" />
+    <Compile Include="Migrations\201901281955011_AddGenreData.Designer.cs">
+      <DependentUpon>201901281955011_AddGenreData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -312,6 +341,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\DetailsView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -356,6 +386,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901281757402_FinishAdingMemberTypeNames.resx">
       <DependentUpon>201901281757402_FinishAdingMemberTypeNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281815394_AddedBirthdateToCustomer.resx">
+      <DependentUpon>201901281815394_AddedBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281821155_ChangedDateTimeTypeToNullable.resx">
+      <DependentUpon>201901281821155_ChangedDateTimeTypeToNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281822342_ChangedAllBirthdatesToNull.resx">
+      <DependentUpon>201901281822342_ChangedAllBirthdatesToNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281825305_AddABirthday.resx">
+      <DependentUpon>201901281825305_AddABirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281850351_AddMoviesDbSet.resx">
+      <DependentUpon>201901281850351_AddMoviesDbSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281952501_AddGeneresModel.resx">
+      <DependentUpon>201901281952501_AddGeneresModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281955011_AddGenreData.resx">
+      <DependentUpon>201901281955011_AddGenreData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
